@@ -82,7 +82,6 @@ void GameScreen::setup() {
 	text.loadFont("fonts/pixelmix.ttf",12);
 
 	loadResources();
-
 }
 
 void GameScreen::generateStars() {
@@ -238,7 +237,6 @@ void GameScreen::getState() {
 			reset();
 			generateStars();
 		} else {
-
 		}
 	}
 	if (LOST_LEVEL) {
@@ -325,9 +323,6 @@ void GameScreen::update() {
 		for(int i = 0; i < ghosts.size(); i++){
 			ghosts[i]->update();
 		}
-
-
-
 	}
 	camera();
 	renderSprites();
@@ -369,7 +364,6 @@ void GameScreen::camera() {
 				setCameraTarget(player.pos);
 			}
 		}
-
 	}
 
 	view_scale = ofLerp(view_scale, view_scale_target, view_lerp_speed * dt);
@@ -384,7 +378,6 @@ void GameScreen::camera() {
 	player.camera_pos = camera_pos;
 	player.camera_target = camera_target;
 }
-
 int GameScreen::pickLivingAstronaut() {
 	std::vector<int> livingAstronauts;
 	int randomLivingAstronaut;
@@ -1108,17 +1101,14 @@ void GameScreen::mouseReleased(int x, int y, int button) {
 
 //--------------------------------------------------------------
 void GameScreen::windowResized(int w, int h) {
-
 }
 
 //--------------------------------------------------------------
 void GameScreen::gotMessage(ofMessage msg) {
-
 }
 
 //--------------------------------------------------------------
 void GameScreen::dragEvent(ofDragInfo dragInfo) {
-
 }
 
 void GameScreen::exportLevel() {

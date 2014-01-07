@@ -8,7 +8,6 @@ Player::Player() : Astronaut() {
 }
 
 Player::~Player() {
-
 }
 
 Player::Player(ofVec2f _pos, std::vector<Gravitator *> *gravitator, std::vector<StrandedAstronaut *> *strandedAstronaut,  std::vector<GUI *> *gui) : Astronaut(_pos), gravitator(gravitator), strandedAstronaut(strandedAstronaut), gui(gui) {
@@ -100,7 +99,6 @@ void Player::setup() {
 
 	GOD_MODE                = false;
 	CAN_HIT_ASTRONAUTS      = false;         /// Bouncing off astronauts gets a little annoying when they keep pushing themselves into you
-
 }
 
 void Player::loadSound() {
@@ -123,7 +121,6 @@ void Player::loadSound() {
 	if (random == 4) {    fxJump.loadSound("AUDIO/ksc_AUDIO_player_jump_004.wav");}
 
 	fxJump.setVolume(0.3);
-
 
 	fxDeath.setVolume(0.75);
 
@@ -194,7 +191,6 @@ void Player::draw(float scale) {
 		p1Renderer->draw();
 	} else {
 		if (anim.frame >= 13) {
-
 		} else {
 			p1Renderer->draw();
 		}
@@ -266,10 +262,8 @@ void Player::checkState() {
 	/// ABILITIES
 	///---------------------
 	if (JETPACK_EMPTY) {
-
 	}
 	if (DEATH_ANIMATION) {
-
 	}
 	if (!TRAVERSE_MODE) {
 		USING_GRAVITY = true;
@@ -343,7 +337,6 @@ void Player::checkState() {
 
 void Player::soundPlayer(string sound) {
 	if (sound == "death") {
-
 	}
 }
 
@@ -462,7 +455,6 @@ void Player::detectGravitatorCollisions() {             ///This method only dete
 
 		if (!TRAVERSE_MODE) {
 			if (dist <= collision_range ) {
-
 				collision               = i;
 				collisionData(i);
 
@@ -496,7 +488,6 @@ void Player::detectGravitatorCollisions() {             ///This method only dete
 				}
 			}
 			if (dist > (planet_r + r) * (planet_r + r)) {
-
 			}
 			if (dist < (planet_gravity_range + r) * (planet_gravity_range + r) && USING_GRAVITY) {
 				IN_GRAVITY_WELL = true;
@@ -508,10 +499,8 @@ void Player::detectGravitatorCollisions() {             ///This method only dete
 			collisionData(collision);
 			orientToPlanet(collision);
 			if (dist <= (planet_r + r) * (planet_r + r)) {
-
 			}
 			if (dist > (planet_r + r) * (planet_r + r) + (r * r)) {
-
 			}
 		}
 	}
@@ -593,7 +582,6 @@ void Player::traversePlanet(bool move_left) {
 		fxWalk.setSpeed(ofRandom(0.8, 1.2));
 		fxWalk.play();
 	}
-
 }
 
 void Player::rotateDirection(bool rotate_left) {
@@ -619,7 +607,6 @@ void Player::chargeJump() {
 }
 
 void Player::jump() {
-
 	if (anim.frame == 1) {
 		jumpStrength = jump_strength_1;
 	} else if (anim.frame == 2) {
@@ -636,7 +623,6 @@ void Player::jump() {
 		LEAVING_PLANET = true;
 		anim = lift;
 		jump_timer = 0.1;
-
 
 		if (DEBUG_GUI) {
 			cout << "Jumped with " + ofToString(jumpStrength) + "N" << endl;
@@ -682,5 +668,4 @@ void Player::keyPressed(ofKeyEventArgs& args) {
 }
 
 void Player::keyReleased(ofKeyEventArgs& args) {
-
 }

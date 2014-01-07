@@ -2,10 +2,10 @@
 
 Decor::Decor()
 {
-    //ctor
+	//ctor
 }
 
 Decor::~Decor()
 {
-    //dtor
+	//dtor
 }

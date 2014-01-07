@@ -2,10 +2,10 @@
 
 Solid::Solid()
 {
-    //ctor
+	//ctor
 }
 
 Solid::~Solid()
 {
-    //dtor
+	//dtor
 }

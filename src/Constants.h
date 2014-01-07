@@ -22,4 +22,3 @@
 #define number_of_stars 10000
 
 #endif
-

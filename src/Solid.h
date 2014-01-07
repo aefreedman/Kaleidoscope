@@ -3,14 +3,13 @@
 
 #include "Decor.h"
 
-
 class Solid : public Decor
 {
-    public:
-        Solid();
-        virtual ~Solid();
-    protected:
-    private:
+public:
+	Solid();
+	virtual ~Solid();
+protected:
+private:
 };
 
 #endif // SOLID_H

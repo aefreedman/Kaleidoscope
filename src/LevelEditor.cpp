@@ -1,9 +1,9 @@
 #include "LevelEditor.h"
 
 LevelEditor::LevelEditor() {
-    //ctor
+	//ctor
 }
 
 LevelEditor::~LevelEditor() {
-    //dtor
+	//dtor
 }

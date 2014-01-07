@@ -5,22 +5,22 @@
 
 class GUIFadeOut : public GUI {
 public:
-    GUIFadeOut();
-    GUIFadeOut(ofVec2f _pos);
-    virtual ~GUIFadeOut();
-    int getAlpha();
+	GUIFadeOut();
+	GUIFadeOut(ofVec2f _pos);
+	virtual ~GUIFadeOut();
+	int getAlpha();
 
-    void setup();
-    void update();
-    void draw();
-    float timer;
-    float max_timer;
+	void setup();
+	void update();
+	void draw();
+	float timer;
+	float max_timer;
 
-    enum {BLACK = 255};
+	enum {BLACK = 255};
 protected:
 private:
 
-    int alpha;
+	int alpha;
 };
 
 #endif // GUIFADEOUT_H

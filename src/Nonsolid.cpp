@@ -2,10 +2,10 @@
 
 Nonsolid::Nonsolid()
 {
-    //ctor
+	//ctor
 }
 
 Nonsolid::~Nonsolid()
 {
-    //dtor
+	//dtor
 }

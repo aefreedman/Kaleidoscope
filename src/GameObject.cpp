@@ -1,9 +1,9 @@
 #include "GameObject.h"
 
 GameObject::GameObject() {
-    //ctor
+	//ctor
 }
 
 GameObject::~GameObject() {
-    //dtor
+	//dtor
 }

@@ -5,9 +5,9 @@
 
 class Shell {
 public:
-    Shell();
-    virtual ~Shell();
-    virtual void update() = 0;
+	Shell();
+	virtual ~Shell();
+	virtual void update() = 0;
 protected:
 private:
 };

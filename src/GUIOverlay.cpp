@@ -1,30 +1,26 @@
 #include "GUIOverlay.h"
 
 GUIOverlay::GUIOverlay() : GUI() {
-    //ctor
+	//ctor
 }
 
 GUIOverlay::GUIOverlay(ofVec2f _pos, string _display_text) : GUI(_pos) {
-    pos = _pos;
-    display_text = _display_text;
-    ACTIVE = true;
+	pos = _pos;
+	display_text = _display_text;
+	ACTIVE = true;
 }
 
 GUIOverlay::~GUIOverlay() {
-    //dtor
+	//dtor
 }
 
 void GUIOverlay::update() {
-
 }
 
 void GUIOverlay::draw() {
-    if (ACTIVE) {
-        ofPushMatrix();
-        ofDrawBitmapStringHighlight(display_text, pos, dark_grey, green);
-        ofPopMatrix();
-    }
+	if (ACTIVE) {
+		ofPushMatrix();
+		ofDrawBitmapStringHighlight(display_text, pos, dark_grey, green);
+		ofPopMatrix();
+	}
 }
-
-
-
