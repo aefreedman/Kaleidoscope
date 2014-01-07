@@ -1,0 +1,2 @@
+ofxXmlSettings
+ofxSpriteSheetRenderer-100b010
