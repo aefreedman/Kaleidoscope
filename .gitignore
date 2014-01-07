@@ -1,0 +1,105 @@
+# Kaleidoscope-specific
+bin/data/sessiondata/*.xml
+bin/data/screenshots/*.png
+
+
+#
+# OF
+#
+
+# OF-specific ignore patterns
+
+openFrameworks.a
+openFrameworksDebug.a
+openFrameworksUniversal.a
+examples/
+bin/*.dll
+bin/*.exe
+
+#rule to avoid non-official addons going into git
+#see addons/.gitignore
+#addons/*
+
+#rule to avoid non-official apps going into git
+#see apps/.gitignore
+#apps/*
+
+#also, see examples/.gitignore
+
+# Some general ignore patterns
+
+build/
+obj/
+*.o
+Debug*/
+Release*/
+*.mode*
+*.app/
+*.pyc
+.svn/
+
+# IDE-specific ignore patterns
+
+#XCode
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+#XCode 4
+xcuserdata
+*.xcworkspace
+
+# OS-specific ignore patterns
+
+#Linux
+*~
+# KDE
+.directory
+.AppleDouble
+
+#OSX
+.DS_Store
+*.swp
+*~.nib
+# Thumbnails
+._*
+
+#Windows
+# Windows image file caches
+Thumbs.db
+# Folder config file
+Desktop.ini
+
+#Android
+.csettings
+/libs/openFrameworksCompiled/project/android/paths.make
+
+# Miscellaneous
+.mailmap
+
+
+#################
+## Code::Blocks
+#################
+
+*.save
+*.layout
+*.depend
+
+
+############
+## Windows
+############
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+*.dll
+apps/myApps/KaliedoscopeTest/bin/KaliedoscopeTest_DEBUG.exes
+apps/myApps/Ksc_PAlpha_Rebuild_0_0_1/bin/*.exe
+apps/myApps/Ksc_PAlpha_Rebuild_0_0_1/bin/data/sessiondata/
+apps/myApps/Ksc_PAlpha_Rebuild_0_0_1/bin/data/levels/saves/
+apps/myApps/Ksc_PAlpha_Rebuild_0_0_1/bin/data/screenshots/
