@@ -2,7 +2,6 @@
 #define STRANDEDASTRONAUT_H
 #include "Astronaut.h"
 #include "Ghost.h"
-#include "Shell.h"
 #include "ofxXmlSettings.h"
 #include <vector>
 

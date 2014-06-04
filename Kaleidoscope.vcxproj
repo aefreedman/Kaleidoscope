@@ -43,6 +43,8 @@
     <TargetName>$(ProjectName)_debug</TargetName>
     <LinkIncremental>true</LinkIncremental>
     <GenerateManifest>true</GenerateManifest>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>ExtendedCorrectnessRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>bin\</OutDir>
@@ -60,6 +62,8 @@
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\..\..\addons\ofxXmlSettings\libs;..\..\..\addons\ofxXmlSettings\src;..\..\..\addons\ofxSpriteSheetRenderer-100b010\libs;..\..\..\addons\ofxSpriteSheetRenderer-100b010\src</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
+      <EnablePREfast>true</EnablePREfast>
+      <DisableSpecificWarnings>4250;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -102,7 +106,6 @@
     <ClCompile Include="src\BlackHole.cpp" />
     <ClCompile Include="src\Comet.cpp" />
     <ClCompile Include="src\Constants.cpp" />
-    <ClCompile Include="src\Decor.cpp" />
     <ClCompile Include="src\EndScreen.cpp" />
     <ClCompile Include="src\GameObject.cpp" />
     <ClCompile Include="src\GameScreen.cpp" />
@@ -117,12 +120,9 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\MenuScreen.cpp" />
     <ClCompile Include="src\Message.cpp" />
-    <ClCompile Include="src\Nonsolid.cpp" />
     <ClCompile Include="src\Planet.cpp" />
     <ClCompile Include="src\Player.cpp" />
     <ClCompile Include="src\Screen.cpp" />
-    <ClCompile Include="src\SHELL.cpp" />
-    <ClCompile Include="src\Solid.cpp" />
     <ClCompile Include="src\StrandedAstronaut.cpp" />
     <ClCompile Include="src\Sun.cpp" />
     <ClCompile Include="src\testApp.cpp" />
@@ -138,7 +138,6 @@
     <ClInclude Include="src\BlackHole.h" />
     <ClInclude Include="src\Comet.h" />
     <ClInclude Include="src\Constants.h" />
-    <ClInclude Include="src\Decor.h" />
     <ClInclude Include="src\EndScreen.h" />
     <ClInclude Include="src\GameObject.h" />
     <ClInclude Include="src\GameScreen.h" />
@@ -152,13 +151,10 @@
     <ClInclude Include="src\LevelEditor.h" />
     <ClInclude Include="src\MenuScreen.h" />
     <ClInclude Include="src\Message.h" />
-    <ClInclude Include="src\Nonsolid.h" />
     <ClInclude Include="src\physfs.h" />
     <ClInclude Include="src\Planet.h" />
     <ClInclude Include="src\Player.h" />
     <ClInclude Include="src\Screen.h" />
-    <ClInclude Include="src\SHELL.h" />
-    <ClInclude Include="src\Solid.h" />
     <ClInclude Include="src\StrandedAstronaut.h" />
     <ClInclude Include="src\Sun.h" />
     <ClInclude Include="src\testApp.h" />

@@ -1,9 +1,9 @@
 #ifndef GUI_H
 #define GUI_H
 
-#include "Shell.h"
+#include "OfMain.h"
 
-class GUI : public Shell {
+class GUI {
 public:
 	GUI();
 	GUI(ofVec2f _pos);

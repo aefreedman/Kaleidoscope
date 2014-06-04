@@ -637,7 +637,7 @@ void GameScreen::drawLevelEditorGUI() {
 	if (clickState == "sizing comet") {
 		ofPushMatrix();
 		ofSetColor(255, 100, 100);
-		ofNoFill;
+		ofNoFill();
 		ofCircle(NEW_COMET_POS, ofDist(mouseX, mouseY, NEW_COMET_POS.x, NEW_COMET_POS.y));
 		ofPopMatrix();
 	}

@@ -25,89 +25,77 @@
     <ClCompile Include="..\..\..\addons\ofxSpriteSheetRenderer-100b010\src\PixelTexture.cpp">
       <Filter>addons\ofxSpriteSheetRenderer-100b010\src</Filter>
     </ClCompile>
-    <ClCompile Include="src\Astronaut.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\BlackHole.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Comet.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="src\Constants.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Decor.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\EndScreen.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\GameObject.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\GameScreen.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Ghost.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Gravitator.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\GUI.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\GUIFadeIn.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\GUIFadeOut.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\GUIOverlay.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\introScreen.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\LevelEditor.cpp">
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="src\MenuScreen.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Message.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Nonsolid.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Planet.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Player.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Screen.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\SHELL.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Solid.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\StrandedAstronaut.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Sun.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="src\testApp.cpp">
       <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EndScreen.cpp">
+      <Filter>src\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameScreen.cpp">
+      <Filter>src\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="src\introScreen.cpp">
+      <Filter>src\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MenuScreen.cpp">
+      <Filter>src\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Screen.cpp">
+      <Filter>src\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Astronaut.cpp">
+      <Filter>src\Elements\Astronauts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BlackHole.cpp">
+      <Filter>src\Elements\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Comet.cpp">
+      <Filter>src\Elements\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject.cpp">
+      <Filter>src\Elements\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ghost.cpp">
+      <Filter>src\Elements\Astronauts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gravitator.cpp">
+      <Filter>src\Elements\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI.cpp">
+      <Filter>src\Elements\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUIFadeIn.cpp">
+      <Filter>src\Elements\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUIFadeOut.cpp">
+      <Filter>src\Elements\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUIOverlay.cpp">
+      <Filter>src\Elements\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Message.cpp">
+      <Filter>src\Elements\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Planet.cpp">
+      <Filter>src\Elements\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>src\Elements\Astronauts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StrandedAstronaut.cpp">
+      <Filter>src\Elements\Astronauts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LevelEditor.cpp">
+      <Filter>src\Elements\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sun.cpp">
+      <Filter>src\Elements\Objects</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -132,6 +120,21 @@
     <Filter Include="addons\ofxSpriteSheetRenderer-100b010\src">
       <UniqueIdentifier>{9A13FCA4-A4EE-10E9-E711-F646}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Views">
+      <UniqueIdentifier>{065a70ea-d917-41ad-b163-f2e3144b27cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Elements">
+      <UniqueIdentifier>{08ebebdf-b905-4ffc-b6e6-f61ff169b225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Elements\GUI">
+      <UniqueIdentifier>{efad784b-d0dc-4345-965a-2f19202edc6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Elements\Objects">
+      <UniqueIdentifier>{c902ed7c-9cb2-49ba-a498-3d639be08203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Elements\Astronauts">
+      <UniqueIdentifier>{1fb2e6a5-e01d-42a4-9278-d51f28eb74fb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
@@ -152,89 +155,77 @@
     <ClInclude Include="..\..\..\addons\ofxSpriteSheetRenderer-100b010\src\PixelTexture.h">
       <Filter>addons\ofxSpriteSheetRenderer-100b010\src</Filter>
     </ClInclude>
-    <ClInclude Include="src\Astronaut.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\BlackHole.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Comet.h">
-      <Filter>src</Filter>
-    </ClInclude>
     <ClInclude Include="src\Constants.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Decor.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\EndScreen.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\GameObject.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\GameScreen.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Ghost.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Gravitator.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\GUI.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\GUIFadeIn.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\GUIFadeOut.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\GUIOverlay.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\introScreen.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\LevelEditor.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\MenuScreen.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Message.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Nonsolid.h">
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="src\physfs.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="src\Planet.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Player.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Screen.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\SHELL.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Solid.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\StrandedAstronaut.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Sun.h">
-      <Filter>src</Filter>
-    </ClInclude>
     <ClInclude Include="src\testApp.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EndScreen.h">
+      <Filter>src\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameScreen.h">
+      <Filter>src\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="src\introScreen.h">
+      <Filter>src\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MenuScreen.h">
+      <Filter>src\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Screen.h">
+      <Filter>src\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Astronaut.h">
+      <Filter>src\Elements\Astronauts</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BlackHole.h">
+      <Filter>src\Elements\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Comet.h">
+      <Filter>src\Elements\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject.h">
+      <Filter>src\Elements\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ghost.h">
+      <Filter>src\Elements\Astronauts</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gravitator.h">
+      <Filter>src\Elements\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GUI.h">
+      <Filter>src\Elements\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GUIFadeIn.h">
+      <Filter>src\Elements\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GUIFadeOut.h">
+      <Filter>src\Elements\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GUIOverlay.h">
+      <Filter>src\Elements\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Message.h">
+      <Filter>src\Elements\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Planet.h">
+      <Filter>src\Elements\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player.h">
+      <Filter>src\Elements\Astronauts</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StrandedAstronaut.h">
+      <Filter>src\Elements\Astronauts</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LevelEditor.h">
+      <Filter>src\Elements\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sun.h">
+      <Filter>src\Elements\Objects</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

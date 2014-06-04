@@ -1,5 +1,7 @@
 #include "testApp.h"
 #define dt 1.0/60.0
+#define maxWidth 1920
+#define maxHeight 1080
 
 //--------------------------------------------------------------
 void testApp::setup() {
@@ -72,7 +74,19 @@ void testApp::resetAllScreens() {
 
 //--------------------------------------------------------------
 void testApp::draw() {
-	currentScreen->draw();
+	ofPushMatrix();
+	//float xScale = ofGetWidth() / maxWidth;
+	//float yScale = ofGetHeight() / maxHeight;
+	//ofScale(xScale, xScale);
+	//if (xScale != yScale)
+	//{// NOTE: window size is aspect locked based on window width
+	//	ofSetWindowShape(ofGetWidth(), maxWidth * xScale);
+	//}
+
+	if(currentScreen) {
+		currentScreen -> draw();
+	}
+	ofPopMatrix();
 }
 
 float testApp::countdownTimer(float time) {
@@ -115,6 +129,10 @@ void testApp::keyPressed(int key) {
 		//            menuScreen.fxEngineLoop.stop();
 		//        }
 		//        break;
+	case OF_KEY_HOME:
+		currentScreen = &menuScreen;
+		resetAllScreens();
+		break;
 	}
 }
 

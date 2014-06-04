@@ -1,11 +1,11 @@
 #include "GUI.h"
 
-GUI::GUI() : Shell() {
+GUI::GUI() {
 	//ctor
 	setupColors();
 }
 
-GUI::GUI(ofVec2f _pos) : Shell() {
+GUI::GUI(ofVec2f _pos) {
 	pos = _pos;
 	setupColors();
 }

@@ -7,7 +7,6 @@
 #include "Gravitator.h"
 #include "Astronaut.h"
 #include "StrandedAstronaut.h"
-#include "Shell.h"
 
 static animation_t walking =
 {	0,	/* .index			(int) - this is the index of the first animation frame. indicies start at 0 and go left to right, top to bottom by tileWidth on the spriteSheet		*/
